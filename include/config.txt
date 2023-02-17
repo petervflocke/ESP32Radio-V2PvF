@@ -1,0 +1,66 @@
+($)EN = > VS1053 3 XRESET
+($)GND = > VS1053 8 GND
+($)GPIO18 = > VS1053 5 SCK
+($)GPIO19 = > VS1053 7 MISO
+($)GPIO23 = > VS1053 6 MOSI ???
+($)VCC 5V = > VS1053 9 5V
+#
+clk_dst = 1
+clk_offset = 1
+clk_server = pool.ntp.org
+#
+fid_0 = 100:bleds
+fid_1 = 800:uppreset=1
+fid_2 = 1500:toggle
+fid_3 = 2500:downpreset=1
+#
+mqttbroker = none
+mqttpasswd = none
+mqttport = 1883
+mqttprefix = none
+mqttuser = none
+#
+pin_clk_out = 14
+pin_dio_out = 13
+pin_enc_clk = 25   # encoder CLK
+pin_enc_dt = 26    # encoder DT
+pin_enc_sw = 27    # encoder SW
+pin_led_out = 17
+pin_stb_out = 15
+pin_tft_scl = 22
+pin_tft_sda = 21
+pin_vs_cs = 5      # VS1053 2 CS/XCS
+pin_vs_dcs = 16    # VS1053 1 DCS/XDCS
+pin_vs_dreq = 4    # VS1053 4 DREQ
+#
+preset = 0
+preset_00 = stream.rcs.revma.com/an1ugyygzk8uv       #! 0 Radio 357
+preset_01 = stream.nowyswiat.online/mp3              #  1 Nowy Swiat
+preset_02 = stream41.radiostream.pl/tuba10-1.mp3     #  2 TokFM
+preset_03 = dispatcher.rndfnk.com/hr/hr3/live/mp3/high  # 3 HR3
+preset_04 = dispatcher.rndfnk.com/hr/hrinfo/live/mp3/low #  4 HRInfo
+preset_05 = listen.livestreamingservice.com/181-awesome80s_128k.mp3  #  5 Awesome 80s
+preset_06 = stream.nowyswiat.online/aac #! 6 Nowy Swiat ACC
+preset_07 = stream.rcs.revma.com/ye5kghkgcm0uv # 7 Radio 357 AAC
+preset_08 = 25303.live.streamtheworld.com:80/DEEP_RADIO.mp3 # 8 test
+preset_09 = server-27.stream-server.nl:8192/stream # 9
+preset_10 = ekrrockradio4.scs.ms:8400/  # 10
+preset_11 = www.rmgoldserver.eu:8963/  # 11
+preset_12 = mp3.wunschradio.de/wunschradio-60er.mp3 # 12
+preset_13 = live.radiocrash.net/ # 13
+preset_14 = audio.674.fm/stream # 14
+preset_15 = 88.198.10.229:9500/stream # 15
+preset_16 = 148.251.43.231:8938/stream # 16
+preset_17 = strm112.1.fm/ambientpsy_mobile_mp3 # 17
+preset_18 = 188.40.97.185:8179/stream # 18
+preset_19 = streaming5.elitecomunicacion.es:8030/live.mp3
+preset_20 = mediaserv38.live-streams.nl:8027/live
+#
+toneha = 0
+tonehf = 3
+tonela = 0
+tonelf = 11
+#
+volume = 44
+#
+wifi_00 = ssid/password
