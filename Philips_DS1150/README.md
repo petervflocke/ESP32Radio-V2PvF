@@ -66,20 +66,23 @@ TL;DR? Then here is a quick list of tasks:
 
 11. Carefully rescue some part from the original PCB like Electrolytic capacitor, jst connectors, bottom LED and top pcb with keys and of course speakers.
 
-    11.1 To save to open upper part use hot air to carefully unglue the sticker. Encoder try to monte the encoder in the middle, some plastic cutting will be necessary. 
-    11.2 Use again hot air to glue the sticker back once you are done.
-    11.3 Think if you want to add the light sensor rather to the OLED display than here. I will do this in the next version (maybe).
-
 12. Use the original pcb to cut out from a universal PCB basis for your elements. Check how to place them on the board. You can use [my pictures](https://github.com/petervflocke/ESP32Radio-V2PvF/tree/master/Philips_DS1150) as this works fine and at the end you will be able to close the original enclosure.
 
 13. For the OLED Display you can use [this enclosure](https://www.thingiverse.com/thing:2176764). and For the Encoder Knob for example one of [these](EncoderKnobs.stl).
 
 14. Tricky steps:
 
-    14.1 Add a sub micro female connector to the Philips enclosure, connect only ground, D+, D- leave the plus/VBUS (see wiring) unconceded. I glued it to the original PCB next to power socket.
+    14.1 Add / glue a micro female connector to the Philips enclosure, connect only ground, D+, D- leave the plus/VBUS (see wiring) unconceded. I glued it to the original PCB next to power socket.
+
     14.2 Solder a female micro usb connector to a cable ribbon and create an extension from ESP32 USB to an outside of the box. Check this [picture](https://raw.githubusercontent.com/petervflocke/ESP32Radio-V2PvF/master/Philips_DS1150/IMG20230204121923.jpg) for some inspiration.
-    14.3 Add power switch if you like
-    14.4 
+    
+    14.3 To open upper part use some hot air to carefully unglue the sticker. Try to mount the encoder in the middle, some plastic cutting will be necessary. 
+
+    14.4 Glue an universal PCB with two tactile switches for boot and reset to the Philips key PCB
+    
+    14.4 Use again hot air to glue the sticker back once you are done.
+    
+    14.5 Think if you want to add the light sensor rather to the OLED display than here. I will do this in the next version (maybe).
 
 15. Solder all together and enjoy
 
