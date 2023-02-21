@@ -52,13 +52,13 @@ TL;DR? Then here is a quick list of tasks:
     | GND     | 8 GND           |
     | VCC     | 9 5V            |
 
-5. Do not connect anything else! Upload the code to ESP32, turn on serial monitoring, find out on the serial console your local IP ESP was granted from your DHCP/router.
+5. Do not connect anything else! Compile and upload the code to ESP32, turn on serial monitoring, find out on the serial console your local IP ESP was granted from your DHCP/router.
 
-6. Open IP address of your newly started ESP32Radio in your internet browser, go to Config page and paste the content of the [Config](include/config.txt) file. Update your WiFi SSID/password there. Save it.
+6. Open IP address of your newly started ESP32Radio in your internet browser, go to Config page and paste the content of the [config file](https://github.com/petervflocke/ESP32Radio-V2PvF/blob/master/include/config.txt) file. Update your WiFi SSID/password there. Save it.
 
 7. Restart Module, and monitor your serial console, if got a reasonable output, without any unexpected error messages, try to open webpage based on the IP address from the serial console.
 
-8. On the webpage configure your radio, for example using my working [config file](https://github.com/petervflocke/ESP32Radio-V2PvF/blob/master/include/config.txt)
+8. For troubleshooting, etc. check the manual or open an issue.
 
 9. Restart and check if the radio can connect to WiFi and any radio station. You can control the radio over a webpage - you don't need display and any keys
 
